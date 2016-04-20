@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Asiakkaat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Asiakas>
+    <Nimi>Alman Apteekki</Nimi>
+    <Yhteyshenkilö>Alma Apteekkari</Yhteyshenkilö>
+    <Katuosoite>Pitk�katu 1 A 2</Katuosoite>
+    <Postinumero>40700</Postinumero>
+    <Postitoimipaikka>JYV�SKYL�</Postitoimipaikka>
+    <Myynti>900 000</Myynti>
+  </Asiakas>
+  <Asiakas>
+    <Nimi>Kutvosen Kivi ja Kura</Nimi>
+    <Yhteyshenkilö>Jaska Kutvonen</Yhteyshenkilö>
+    <Katuosoite>Nuolikatu 10</Katuosoite>
+    <Postinumero>40740</Postinumero>
+    <Postitoimipaikka>JYV�SKYL�</Postitoimipaikka>
+    <Myynti>312 000</Myynti>
+  </Asiakas>
+</Asiakkaat>

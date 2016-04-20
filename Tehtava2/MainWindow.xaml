@@ -1,0 +1,24 @@
+﻿<Window x:Class="Tehtava2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava2"
+        mc:Ignorable="d"
+        Title="CSV to XML" Height="383.873" Width="750"
+        ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="txtBoxCsvFilePath" HorizontalAlignment="Left" Height="23" Margin="95,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="412"/>
+        <Label x:Name="label" Content="CSV-tiedosto" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSearch" Content="Hae" HorizontalAlignment="Left" Margin="512,14,0,0" VerticalAlignment="Top" Width="98" RenderTransformOrigin="0.665,0.629" Click="btnSearch_Click"/>
+        <DataGrid x:Name="dataGridOut" Margin="0,41,0,46" SelectionMode="Extended" SelectionUnit="FullRow" ItemsSource="{Binding}">
+            <!--<DataGrid.Columns>
+                <DataGridCheckBoxColumn Binding="{Binding Selected}" Header="Selected"></DataGridCheckBoxColumn>
+                <DataGridTextColumn Binding="{Binding Nimi}"></DataGridTextColumn>
+            </DataGrid.Columns>!-->
+        </DataGrid>
+        <Label x:Name="label1" Content="XML-tiedosto" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxXMLPath" HorizontalAlignment="Left" Height="23" Margin="97,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410"/>
+        <Button x:Name="btnExport" Content="Vie" HorizontalAlignment="Left" Margin="512,317,0,0" VerticalAlignment="Top" Width="75" Click="btnExport_Click"/>
+    </Grid>
+</Window>
